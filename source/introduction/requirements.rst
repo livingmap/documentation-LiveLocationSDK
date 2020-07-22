@@ -1,0 +1,46 @@
+Requirements
+============
+
+.. contents::
+    :depth: 1
+    :local:
+
+
+Whitelisted IP Access
+---------------------
+
+Access to *LiveLocationSDK* is restricted to whitelisted IP addresses. To add your IP address to the whitelist, contact Living Map via the :doc:`../support/support-desk`. Please allow up to 1 working day for the request to be processed.
+
+
+Software
+--------
+
+*LiveLocationSDK* operates on Android and iOS platforms of a specified minimum version (see table below), and up to and including the latest version. Requirements for a particular minimum version may be due to the availability of certain OS APIs that allow access to sensor hardware data.
+
+Android
+^^^^^^^
+
++------------------------+--------------------------+----------------------------+
+| SDK Version            | Minimum Version          | Maximum Version            |
++========================+==========================+============================+
+| 10.0                   | 7.0 Nougat (API 24)      | Latest                     |
++------------------------+--------------------------+----------------------------+
+
+iOS
+^^^
+
++------------------------+--------------------------+----------------------------+
+| SDK Version            | Minimum Version          | Maximum Version            |
++========================+==========================+============================+
+| 10.0                   | 11.0                     | Latest                     |
++------------------------+--------------------------+----------------------------+
+
+
+Hardware
+--------
+
+* Android or iOS mobile device, capable of running the minimum software requirements.
+* Bluetooth (used for Beacon positioning).
+* Wi-Fi (used for indoor positioning).
+* GPS (used for outdoor positioning).
+* An active internet connection (either cellular or wi-fi for downloading maps and data).
